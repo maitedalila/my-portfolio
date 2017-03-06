@@ -179,7 +179,7 @@ a {
 
 
 .button {
-    background-color: #FBBB00; 
+    background-color: #F2B80B; 
     opacity: 20%;
     color: #FFF;
     border-radius: 25px;
@@ -200,7 +200,7 @@ a {
 }
 
 .button:hover {
-  background-color: #DFDFDF;
+  background-color: #FBBB00;
   color: #FFFFFF;
 }
 
