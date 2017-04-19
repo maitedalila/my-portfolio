@@ -222,6 +222,8 @@ a {
   margin: auto;
 }
 
+
+
 #location{
    background:#000;
    text-align: center;
@@ -375,8 +377,10 @@ a {
 #quote {
   background-color: #EEE;
   background: url("../images/building.png");
-
+  padding: 4.5em 30px;
 }
+
+
 
 .img-full {
   width: 100%;
