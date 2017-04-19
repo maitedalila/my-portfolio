@@ -61,7 +61,7 @@ hr {
     background: url("../images/building.png");
     background-size: cover;
 /*    color: white;
-*/    background-position: center 5%;
+*/    background-position: center -10%;
     background-repeat: no-repeat;
     text-align: center;
     padding: 10em 0 6em;
@@ -71,7 +71,7 @@ hr {
 .tagline-about{
     background: url("../images/building.png");
     background-size: cover;
-    background-position: center 5%;
+    background-position: center 20%;
     background-repeat: no-repeat;
     text-align: center;
     padding: 8em 0 7em;
