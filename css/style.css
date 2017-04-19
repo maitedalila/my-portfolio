@@ -90,7 +90,7 @@ header {
 
 
 section {
-  padding: 7em 30px;
+  padding: 4em 30px;
 }
 
 body {
@@ -104,10 +104,12 @@ body {
 
 h1 {
   font-family: 'Georgia', sans-serif  !important;
-  font-size: 2.8em;
+  font-size: 3.5em;
   font-weight: 600;
   color: #fff;
   margin-bottom: -0.8em;
+/*  color: white;
+  text-shadow: .3px .3px .3px #383838;*/
 }
 
 h1.dark {
@@ -393,7 +395,7 @@ a {
 }
 
 #quote {
-  background: url("../images/blue.png");
+  background: url("../images/building.png");
   padding: 4.5em 30px;
 }
 
