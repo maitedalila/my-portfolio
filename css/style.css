@@ -9,6 +9,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Kayak';
+  src: url(../fonts/Kayak Sans Bold.otf);
+}
+
+@font-face {
+  font-family: 'Madras Light';
+  src: url(../fonts/MadrasExtraLight.otf);
+}
+
 nav {
   position: absolute;
   right: 1em;
@@ -54,7 +64,7 @@ hr {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 8em 0 6em;
+    padding: 10em 0 6em;
 }
 
  
@@ -93,10 +103,9 @@ body {
 }
 
 h1 {
-  font-family: 'Gotham', sans-serif  !important;
-  font-size: 2.5em;
+  font-family: 'Kayak', sans-serif  !important;
+  font-size: 2.8em;
   font-weight: 600;
-  text-transform: uppercase;
   color: #fff;
   margin-bottom: -0.8em;
 }
@@ -106,31 +115,29 @@ h1.dark {
 }
 
 h2.dark {
-  font-family: 'Gotham', sans-serif !important;
+  font-family: 'Kayak', sans-serif !important;
   font-size: 1em;
   font-weight: 600;
-  text-transform: uppercase;
   color: #222;
 }
 
 .header-black {
-  font-family: 'Gotham', sans-serif !important;
+  font-family: 'Kayak', sans-serif !important;
   font-size: 2em;
-  text-transform: uppercase;
   text-align: center;
   color: #222;
    margin-bottom: 1em;
 }
 
 h3 {
-  font-family: 'Gotham', sans-serif !important;
+  font-family: 'Kayak', sans-serif !important;
   font-size: 1.7em;
   text-transform: uppercase;
   color: #222;
 }
 
 h4 {
-  font-family: 'Gotham', sans-serif !important;
+  font-family: 'Kayak', sans-serif !important;
   font-size: 1.2em;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -361,7 +368,7 @@ a {
 }
 
 .service p {
-  font-family: 'Mulis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #0A402B;
   text-align: center;
   font-size: .8em;
