@@ -10,13 +10,13 @@
 }
 
 @font-face {
-  font-family: 'Kayak';
-  src: url(../fonts/Kayak Sans Bold.otf);
+  font-family: 'Georgia Bold';
+  src: url(../fonts/Georgia Bold.ttf);
 }
 
 @font-face {
-  font-family: 'Madras Light';
-  src: url(../fonts/MadrasExtraLight.otf);
+  font-family: 'Georgia';
+  src: url(../fonts/Georgia.ttf);
 }
 
 nav {
@@ -30,7 +30,6 @@ nav {
 
 nav li {
   display: inline-block;
-  text-transform: uppercase;
   margin-right: 2em;
   font-weight: 300;
   letter-spacing: 1px;
@@ -41,7 +40,7 @@ nav ul {
 }
 
 nav a{
-    color: #222;
+    color: #808080;
     text-decoration: none;
     padding: 1em;
 }
@@ -54,14 +53,15 @@ hr {
 }
 
 .logo {
-  width: 10em;
+  width: 14em;
   float: left;
 }
  
 .tagline{
     background: url("../images/building.png");
     background-size: cover;
-    background-position: center 5%;
+/*    color: white;
+*/    background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
     padding: 10em 0 6em;
@@ -103,7 +103,7 @@ body {
 }
 
 h1 {
-  font-family: 'Kayak', sans-serif  !important;
+  font-family: 'Georgia', sans-serif  !important;
   font-size: 2.8em;
   font-weight: 600;
   color: #fff;
@@ -115,29 +115,28 @@ h1.dark {
 }
 
 h2.dark {
-  font-family: 'Kayak', sans-serif !important;
+  font-family: 'Georgia', sans-serif !important;
   font-size: 1em;
   font-weight: 600;
-  color: #222;
+  color: #383838;
 }
 
 .header-black {
-  font-family: 'Kayak', sans-serif !important;
+  font-family: 'Georgia', sans-serif !important;
   font-size: 2em;
   text-align: center;
-  color: #222;
+  color: #383838;
    margin-bottom: 1em;
 }
 
 h3 {
-  font-family: 'Kayak', sans-serif !important;
+  font-family: 'Georgia', sans-serif !important;
   font-size: 1.7em;
-  text-transform: uppercase;
-  color: #222;
+  color: #383838;
 }
 
 h4 {
-  font-family: 'Kayak', sans-serif !important;
+  font-family: 'Georgia', sans-serif !important;
   font-size: 1.2em;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -151,7 +150,7 @@ p {
   line-height: 1.7em;
   margin: auto;
   letter-spacing: 1.2px;
-  color: #222;
+  color: #808080;
 }
 
 .p-about {
@@ -178,10 +177,9 @@ ul {
 
 
 a {
-    color: #222;
+    color: #383838;
     font-family: Open Sans;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
@@ -206,6 +204,19 @@ a {
   background-color: #FAC322;
   color: #FFF;
 }
+
+/*.button.btn-nav {
+    background-color: #F2B80B;
+    opacity: 20%;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 0;
+}*/
 
 .button:hover {
   background-color: #FBBB00;
@@ -363,8 +374,9 @@ a {
 .service h3 {
   color: #0A402B;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-top: 2em;
+  font-family: Georgia bold;
 }
 
 .service p {
@@ -375,15 +387,13 @@ a {
   font-weight: 100;
   line-height: 2em;
   font-weight: 400;
-
   text-transform: lowercase;
   margin-top: 1em;
   padding: 0 1em;
 }
 
 #quote {
-  background-color: #EEE;
-  background: url("../images/building.png");
+  background: url("../images/blue.png");
   padding: 4.5em 30px;
 }
 
@@ -454,21 +464,21 @@ a {
 #say-hello-page p{
   display: inline-block;
   background-color: #fff;
-  color: #222;
+  color: #383838;
 
 }
 
-footer{
-  background: #EFEFEF;
+/*footer{
+  background: #08080;
   text-align: center;
-  padding: 5em 0;
+  padding: 2em 0;
   line-height: 2.5;
 }
 
 footer li {
   line-height: 2.5;
 
-}
+}*/
 
 .footer-right {
   float: right;
