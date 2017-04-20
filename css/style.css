@@ -485,8 +485,8 @@ a {
 
 }
 
-/*footer{
-  background: #08080;
+footer{
+  background: #323430;
   text-align: center;
   padding: 2em 0;
   line-height: 2.5;
@@ -495,7 +495,7 @@ a {
 footer li {
   line-height: 2.5;
 
-}*/
+}
 
 .footer-right {
   float: right;
