@@ -53,8 +53,15 @@ hr {
 }
 
 .logo {
-  width: 14em;
+  width: 20%;
   float: left;
+}
+
+.icon {
+  width: 3em !important;
+  float: center;
+  margin-top: 1em;
+
 }
  
 .tagline{
@@ -373,10 +380,17 @@ a {
   vertical-align: top;
 }
 
+
+
+.service img {
+  width: 100%;
+  vertical-align: top;
+}
+
 .service h3 {
   color: #0A402B;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-top: 2em;
   font-family: Georgia bold;
 }
@@ -390,8 +404,8 @@ a {
   line-height: 2em;
   font-weight: 400;
   text-transform: lowercase;
-  margin-top: 1em;
-  padding: 0 1em;
+  /*margin-top: 1em;*/
+  padding: 0 2em;
 }
 
 #quote {
