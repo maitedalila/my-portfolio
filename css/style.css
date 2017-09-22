@@ -54,7 +54,7 @@ hr {
 }
 
 .logo {
-  width: 20%;
+  width: 3%;
   float: left;
 }
 
@@ -167,6 +167,7 @@ h3 {
 h4 {
   font-family: 'Georgia', sans-serif !important;
   font-size: 1.2em;
+  font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #fff;
@@ -286,10 +287,10 @@ a {
 
 
 #social-media {
-  background: #323430;
+  background: #EFEFEF;
   color: #4CBDC6;
-  text-align: left;
-  padding: 1em 2em;  
+  text-align: center;
+  padding: 3em 2em;  
 }
 
 #social-media h4 {
@@ -313,7 +314,7 @@ a {
 
 .social-link i,
 .social-link img {
-  width: 25px;
+  width: 40px;
   color: #000;
 }
 
