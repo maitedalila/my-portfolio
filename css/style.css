@@ -43,6 +43,7 @@ nav a{
     color: #808080;
     text-decoration: none;
     padding: 1em;
+    margin-bottom: 2em;
 }
 
 hr { 
@@ -65,20 +66,37 @@ hr {
 }
  
 .tagline{
-    background: url("../images/stuff.png");
+    background-color: #fff;
     background-size: cover;
 /*    color: white;
 */    background-position: center -10%;
     background-repeat: no-repeat;
-    text-align: center;
+    text-align: left;
     padding: 10em 0 6em;
 }
 
- 
+.tagline h1 {
+    margin-bottom: 0em;
+    margin-left: 1.1em;
+    font-family: 'Georgia', sans-serif  !important;
+    font-size: 3.2em;
+    font-weight: 800;
+    color: #383838;
+ }
+
+ .tagline h3 {
+    margin-bottom: 0em;
+    margin-left: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #383838;
+ }
+
 .tagline-about{
-    background: url("../images/stuff.png");
+    background: url("../images/bike.png");
     background-size: cover;
-    background-position: center 20%;
+    background-position: center 60%;
     background-repeat: no-repeat;
     text-align: center;
     padding: 8em 0 7em;
@@ -86,9 +104,9 @@ hr {
 
 
 header {
-  padding: 1em;
+  padding: 2em;
   position: fixed;
-  top: 0;
+  top: -15px;
   width: 100%;
   background: #fff;
   z-index: 2;
@@ -133,13 +151,15 @@ h2.dark {
 .header-black {
   font-family: 'Georgia', sans-serif !important;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   color: #383838;
-   margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-left: .9em;
+
 }
 
 h3 {
-  font-family: 'Georgia', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 1.7em;
   color: #383838;
 }
@@ -247,6 +267,7 @@ a {
   color: #00A2AE;
   text-align: center;
   margin: auto;
+
 }
 
 
@@ -312,6 +333,7 @@ a {
   color: #FFF;
   text-align: center;
   padding: 0em 2em;  
+  margin-top: .1em;
 }
 
 .company-link {
@@ -369,15 +391,16 @@ a {
 .service {
   background-color: #fff;
   text-align: center;
-  height: 15em;
+  height: 28em;
   position: relative;
-  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-  margin-bottom: 1em;
+/*  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+*/  margin-bottom: 1em;
 }
 
 .service img {
   width: 100%;
   vertical-align: top;
+  margin-top: -1.2em;
 }
 
 
@@ -389,23 +412,21 @@ a {
 
 .service h3 {
   color: #0A402B;
-  text-align: center;
-  font-size: 1.2em;
-  margin-top: 2em;
+  text-align: left;
+  font-size: 1.3em;
+  margin-top: 1em;
   font-family: Georgia bold;
 }
 
 .service p {
   font-family: 'Open Sans', sans-serif;
   color: #0A402B;
-  text-align: center;
-  font-size: .8em;
+  text-align: left;
+  font-size: .9em;
   font-weight: 100;
   line-height: 2em;
   font-weight: 400;
-  text-transform: lowercase;
   /*margin-top: 1em;*/
-  padding: 0 2em;
 }
 
 #quote {
