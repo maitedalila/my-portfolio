@@ -287,10 +287,12 @@ a {
 
 
 #social-media {
-  background: #EFEFEF;
+  background: #fff;
   color: #4CBDC6;
   text-align: center;
-  padding: 3em 2em;  
+  padding: 3em 2em; 
+  margin-bottom: 4em;
+ 
 }
 
 #social-media h4 {
