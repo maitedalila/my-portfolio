@@ -40,10 +40,11 @@ nav ul {
 }
 
 nav a{
-    color: #808080;
+    color: #383838;
     text-decoration: none;
     padding: 1em;
     margin-bottom: 2em;
+    font-size: 1.2em;
 }
 
 hr { 
@@ -99,19 +100,19 @@ hr {
     background-position: center 60%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 8em 0 7em;
+    padding: 12em 0 7em;
 }
 
 
 header {
-  padding: 2em;
+  padding: 3em;
   position: fixed;
   top: -15px;
   width: 100%;
   background: #fff;
   z-index: 2;
-  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-}
+/*  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+*/}
 
 
 section {
@@ -394,7 +395,7 @@ a {
 .service {
   background-color: #fff;
   text-align: center;
-  height: 28em;
+  height: 22em;
   position: relative;
 /*  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 */  margin-bottom: 1em;
